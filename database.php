@@ -1,9 +1,10 @@
 <?php
 
+// Add your database credentials 
 $servername = "localhost";
-$username = "id20139608_todo";
-$password = "_*JRd0^6>g@[kfq8";
-$database = "id20139608_todolist";
+$username = "";
+$password = "";
+$database = "";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $database);
