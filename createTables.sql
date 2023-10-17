@@ -12,6 +12,7 @@ DROP TABLE IF EXISTS task;
 CREATE TABLE task (
 task_id INT AUTO_INCREMENT,
 task_desp VARCHAR(500) NOt NULL,
+date_created DATE NOT NULL,
 due_date DATE NOT NULL,
 task_category INT,
 priority_level tinyint CHECK(priority_level > 0 AND priority_level < 5),
